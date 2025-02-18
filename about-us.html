@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Programs | GatewayEurope - Your Path to European Education</title>
+    <meta name="description" content="Explore top European university programs with expert guidance. Bachelor's, Master's, and PhD programs with scholarship opportunities. Start your academic journey today!">
+    <meta name="keywords" content="European university programs, study in Europe, bachelor programs Europe, master programs Europe, PhD programs Europe, European degree programs, European university courses, higher education Europe, European university admission, international study programs">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Discover Top European University Programs | GatewayEurope">
+    <meta property="og:description" content="Explore prestigious European university programs with expert guidance. 90% scholarship success rate. Start your academic journey today!">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #f8f9ff;
+        }
+
+        /* Navigation Styles */
+        .navbar {
+            padding: 1.5rem 8%;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 2px 15px rgba(0, 35, 102, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #002366;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #2d3436;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #007bff;
+        }
+
+        .cta-button {
+            background: #007bff;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #0056b3;
+            transform: translateY(-2px);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 8rem 8% 4rem;
+            background: linear-gradient(135deg, #002366 0%, #001845 100%);
+            color: white;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Program Cards */
+        .programs-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 4rem 8%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .program-card {
+            background: white;
+            border-radius: 15px;
+            padding: 2rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .program-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .program-icon {
+            font-size: 2.5rem;
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+
+        /* Features Section */
+        .features {
+            background: white;
+            padding: 4rem 8%;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .feature-card {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #002366;
+            color: white;
+            padding: 4rem 8% 2rem;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">GatewayEurope</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="scholarships.html">Scholarships</a></li>
+            <li><a href="success-stories.html">Success Stories</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="contact.html#consultation-form" class="cta-button">Free Consultation</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Discover Your Perfect Study Program in Europe</h1>
+        <p>Join 5000+ successful students who found their dream programs through GatewayEurope</p>
+    </section>
+
+    <!-- Programs Grid -->
+    <section class="programs-grid">
+        <div class="program-card">
+            <i class="fas fa-graduation-cap program-icon"></i>
+            <h3>Bachelor's Programs</h3>
+            <p>3-4 year undergraduate programs in various disciplines</p>
+            <ul style="margin-top: 1rem;">
+                <li>Engineering & Technology</li>
+                <li>Business & Economics</li>
+                <li>Arts & Humanities</li>
+                <li>Science & Research</li>
+            </ul>
+        </div>
+        <div class="program-card">
+            <i class="fas fa-book program-icon"></i>
+            <h3>Master's Programs</h3>
+            <p>1-2 year specialized graduate programs</p>
+            <ul style="margin-top: 1rem;">
+                <li>Advanced Research</li>
+                <li>Professional Development</li>
+                <li>Industry Integration</li>
+                <li>Specialized Tracks</li>
+            </ul>
+        </div>
+        <div class="program-card">
+            <i class="fas fa-microscope program-icon"></i>
+            <h3>PhD Programs</h3>
+            <p>3-5 year doctoral research programs</p>
+            <ul style="margin-top: 1rem;">
+                <li>Research Excellence</li>
+                <li>Academic Innovation</li>
+                <li>Global Collaboration</li>
+                <li>Publication Support</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2 style="text-align: center; margin-bottom: 3rem;">Why Choose Our Programs?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-award" style="font-size: 2.5rem; color: #007bff; margin-bottom: 1rem;"></i>
+                <h3>Top-Ranked Universities</h3>
+                <p>Access to Europe's prestigious institutions</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-euro-sign" style="font-size: 2.5rem; color: #007bff; margin-bottom: 1rem;"></i>
+                <h3>Scholarship Support</h3>
+                <p>90% success rate in scholarship applications</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-globe" style="font-size: 2.5rem; color: #007bff; margin-bottom: 1rem;"></i>
+                <h3>Global Recognition</h3>
+                <p>Internationally recognized degrees</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h3 style="margin-bottom: 1rem;">Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> info@gatewayeurope.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-location-dot"></i> 123 Education Street, City</p>
+            </div>
+            <div>
+                <h3 style="margin-bottom: 1rem;">Quick Links</h3>
+                <p><a href="programs.html" style="color: white; text-decoration: none;">Our Programs</a></p>
+                <p><a href="scholarships.html" style="color: white; text-decoration: none;">Scholarships</a></p>
+                <p><a href="success-stories.html" style="color: white; text-decoration: none;">Success Stories</a></p>
+                <p><a href="about-us.html" style="color: white; text-decoration: none;">About Us</a></p>
+            </div>
+            <div>
+                <h3 style="margin-bottom: 1rem;">Follow Us</h3>
+                <div style="display: flex; gap: 1rem;">
+                    <a href="#" style="color: white; font-size: 1.5rem;"><i class="fab fa-facebook"></i></a>
+                    <a href="#" style="color: white; font-size: 1.5rem;"><i class="fab fa-twitter"></i></a>
+                    <a href="#" style="color: white; font-size: 1.5rem;"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" style="color: white; font-size: 1.5rem;"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1);">
+            <p>&copy; 2020-2025 GatewayEurope. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "EducationalOrganization",
+      "name": "GatewayEurope",
+      "description": "Expert guidance for studying in Europe with comprehensive program offerings",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Education Street",
+        "addressLocality": "City",
+        "addressCountry": "Country"
+      },
+      "telephone": "+1 (555) 123-4567",
+      "email": "info@gatewayeurope.com",
+      "sameAs": [
+        "https://facebook.com/gatewayeurope",
+        "https://twitter.com/gatewayeurope",
+        "https://linkedin.com/company/gatewayeurope",
+        "https://instagram.com/gatewayeurope"
+      ]
+    }
+    </script>
+</body>
+</html>
